@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    background-image: url(file:///C:/Xampp1/htdocs/task_2/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrap{
+	background: white;
+	width: 900px;
+	margin: 50px auto;
+}
+.wrap .header{
+	background: rgb(39, 195, 243);
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+
+.wrap .badan .sidebar{
+	background: white;
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+
+.wrap .badan .sidebar .image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px 20px;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.wrap .badan .sidebar h1{
+    margin: 10px 35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.wrap .badan .content{
+	background: white;
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+
+.wrap .badan .content table{
+    margin: 30px 0px;
+	font-size: 20px;
+    padding: 5px 10px;
+    color: #000;	
+    border-collapse: collapse;
+    width: 100%;
+}
+.wrap .badan .content table td, table th {
+    border: thin solid #ccc;
+    padding: .2em;
+    }
+tr:hover {background-color: rgb(39, 195, 243);}
